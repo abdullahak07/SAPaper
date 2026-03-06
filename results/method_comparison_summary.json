@@ -1,0 +1,92 @@
+{
+  "original": {
+    "method": "Original\n(No Unlearning)",
+    "short": "Original",
+    "accuracy": 0.8463,
+    "auc": 0.8082370822757163,
+    "mia_gap": 0.0073645498393503095,
+    "fqs": 0.0,
+    "time_sec": 0,
+    "acc_drop": 0.0,
+    "citation": "\u2014"
+  },
+  "methods": [
+    {
+      "method": "Full Retrain\n(Gold Standard)",
+      "short": "Retrain",
+      "accuracy": 0.84485,
+      "auc": 0.8065337644028184,
+      "mia_gap": 0.007127533017303289,
+      "fqs": 0.03675677756774578,
+      "time_sec": 0.8976750373840332,
+      "acc_drop": 0.0014500000000000624,
+      "citation": "Cao & Yang (2015)"
+    },
+    {
+      "method": "SISA\n(Proposed)",
+      "short": "SISA",
+      "accuracy": 0.842775,
+      "auc": 0.8082123019109537,
+      "mia_gap": 0.007606914416693034,
+      "fqs": 0.0,
+      "time_sec": 0.17671513557434082,
+      "acc_drop": 0.0035250000000000004,
+      "citation": "Bourtoule et al. (2021)"
+    },
+    {
+      "method": "Gradient Ascent\n(Label Flip)",
+      "short": "Grad. Ascent",
+      "accuracy": 0.846225,
+      "auc": 0.8068042108470601,
+      "mia_gap": 0.0064866980963623755,
+      "fqs": 0.12340823862947922,
+      "time_sec": 0.8314492702484131,
+      "acc_drop": 7.500000000004725e-05,
+      "citation": "Golatkar et al. (2020)"
+    },
+    {
+      "method": "Random\nRelabeling",
+      "short": "Rand. Relabel",
+      "accuracy": 0.84525,
+      "auc": 0.8061164317679808,
+      "mia_gap": 0.0073382059079795114,
+      "fqs": 0.008340192488178765,
+      "time_sec": 0.8208887577056885,
+      "acc_drop": 0.0010500000000001064,
+      "citation": "Graves et al. (2021)"
+    },
+    {
+      "method": "Influence\nReweighting",
+      "short": "Influence",
+      "accuracy": 0.845925,
+      "auc": 0.8065186515756471,
+      "mia_gap": 0.00709165390628641,
+      "fqs": 0.041649927558221465,
+      "time_sec": 0.8387150764465332,
+      "acc_drop": 0.0003750000000000142,
+      "citation": "Koh & Liang (2017)"
+    },
+    {
+      "method": "Noisy Label\nInjection",
+      "short": "Noisy Labels",
+      "accuracy": 0.845475,
+      "auc": 0.8063290272441699,
+      "mia_gap": 0.0065060883370923195,
+      "fqs": 0.12068111480448616,
+      "time_sec": 0.8313605785369873,
+      "acc_drop": 0.0008250000000000757,
+      "citation": "Chen et al. (2023)"
+    },
+    {
+      "method": "Selective Tree\nPruning",
+      "short": "Tree Pruning",
+      "accuracy": 0.842975,
+      "auc": 0.8012278773210944,
+      "mia_gap": 0.006905224573807933,
+      "fqs": 0.06659885397713065,
+      "time_sec": 0.06969404220581055,
+      "acc_drop": 0.0033250000000000224,
+      "citation": "Novel (this work)"
+    }
+  ]
+}

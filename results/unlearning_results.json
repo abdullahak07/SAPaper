@@ -1,0 +1,29 @@
+{
+  "original_model": {
+    "accuracy": 0.8463,
+    "auc_roc": 0.8082,
+    "mia_on_forget_set": 0.7593,
+    "mia_on_test_set": 0.7519,
+    "mia_gap": 0.0074
+  },
+  "unlearned_model_sisa": {
+    "accuracy": 0.8419,
+    "auc_roc": 0.809,
+    "mia_on_forget_set": 0.7576,
+    "mia_on_test_set": 0.7503,
+    "mia_gap": 0.0072,
+    "forgetting_score": 0.9991,
+    "unlearning_time_sec": 0.12,
+    "shards_retrained": 1,
+    "total_shards": 5
+  },
+  "retrained_model": {
+    "accuracy": 0.8448,
+    "auc_roc": 0.8065,
+    "mia_on_forget_set": 0.7584,
+    "full_retrain_time_sec": 0.78
+  },
+  "speedup_factor": 6.7,
+  "forget_set_size": 500,
+  "n_shards": 5
+}
