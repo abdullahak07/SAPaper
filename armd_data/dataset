@@ -1,0 +1,11 @@
+# Download Data
+
+https://datadryad.org/dataset/doi:10.5061/dryad.jq2bvq8kp
+
+
+The key files for our paper:
+
+microbiology_cultures_cohort.csv (257 MB) — organism, antibiotic, susceptibility (Resistant/Susceptible) ← this is our target label
+microbiology_cultures_demographics.csv (34 MB) — age, gender
+microbiology_cultures_ward_info.csv (49 MB) — ICU, ER, inpatient
+microbiology_cultures_labs.csv (448 MB) — WBC, creatinine, etc.
