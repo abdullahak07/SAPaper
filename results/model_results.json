@@ -1,0 +1,12 @@
+{
+  "original_model": {
+    "accuracy": 0.8463,
+    "auc_roc": 0.8082,
+    "training_samples": 160000
+  },
+  "retrained_model": {
+    "accuracy": 0.8448,
+    "auc_roc": 0.8065,
+    "training_samples": 159500
+  }
+}
