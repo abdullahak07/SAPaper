@@ -1,0 +1,17 @@
+\begin{table}[htbp]
+\centering
+\caption{Machine unlearning on PATRIC (RF, $n=3$ seeds, mean$\,\pm\,$SD). $^\dagger$Violates 0.5\% accuracy threshold. Bold = proposed SISA. $\downarrow$ lower is better; $\uparrow$ higher is better.}
+\label{tab:patric_rf}
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{L{3.2cm} C{2.3cm} C{2.0cm} C{2.2cm} C{2.4cm} C{1.8cm}}
+\toprule
+\textbf{Method} & \textbf{Acc.\,$\uparrow$} & \textbf{AUC\,$\uparrow$} & \textbf{|MIA|$\times10^{-3}$\,$\downarrow$} & \textbf{Time (s)\,$\downarrow$} & \textbf{Speedup\,$\uparrow$} \\
+\midrule
+Full Retrain & 67.88 $\pm$ 0.16 & 0.774 $\pm$ 0.001 & 3.337 $\pm$ 4.203 & 1.928 $\pm$ 0.044 & 1.0 $\pm$ 0.0 \\
+\rowcolor{sisa}\textbf{SISA (proposed)} & 68.62 $\pm$ 0.16 & 0.774 $\pm$ 0.001 & 3.746 $\pm$ 4.213 & 0.249 $\pm$ 0.018 & 7.8 $\pm$ 0.4 \\
+Label-Flip Retrain. & 67.85 $\pm$ 0.13 & 0.773 $\pm$ 0.001 & 3.346 $\pm$ 4.471 & 1.909 $\pm$ 0.018 & 1.0 $\pm$ 0.0 \\
+Influence Rewt. & 67.86 $\pm$ 0.14 & 0.773 $\pm$ 0.001 & 3.392 $\pm$ 4.123 & 1.858 $\pm$ 0.015 & 1.0 $\pm$ 0.0 \\
+Tree Pruning & 67.74 $\pm$ 0.11 & 0.771 $\pm$ 0.000 & 3.061 $\pm$ 4.026 & 0.009 $\pm$ 0.001 & 224.6 $\pm$ 15.8 \\
+\bottomrule
+\end{tabular}
+\end{table}

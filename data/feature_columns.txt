@@ -1,0 +1,61 @@
+age_num
+gender_num
+hosp_ward_IP
+hosp_ward_OP
+hosp_ward_ER
+hosp_ward_ICU
+org_CITROBACTER FREUNDII COMPLEX
+org_CITROBACTER KOSERI
+org_COAG NEGATIVE STAPHYLOCOCCUS
+org_ENTEROBACTER CLOACAE COMPLEX
+org_ENTEROCOCCUS FAECALIS
+org_ENTEROCOCCUS SPECIES
+org_ESCHERICHIA COLI
+org_KLEBSIELLA AEROGENES
+org_KLEBSIELLA OXYTOCA
+org_KLEBSIELLA PNEUMONIAE
+org_MORGANELLA MORGANII
+org_MUCOID PSEUDOMONAS AERUGINOSA
+org_Other
+org_PROTEUS MIRABILIS
+org_PSEUDOMONAS AERUGINOSA
+org_PSEUDOMONAS AERUGINOSA (NON-MUCOID CF)
+org_SERRATIA MARCESCENS
+org_STAPH AUREUS {MRSA}
+org_STAPHYLOCOCCUS AUREUS
+org_STREPTOCOCCUS AGALACTIAE (GROUP B)
+org_ZZZENTEROBACTER AEROGENES
+abx_Amikacin
+abx_Amoxicillin/Clavulanic Acid
+abx_Ampicillin
+abx_Ampicillin/Sulbactam
+abx_Aztreonam
+abx_Cefazolin
+abx_Cefepime
+abx_Cefoxitin
+abx_Ceftazidime
+abx_Ceftriaxone
+abx_Cefuroxime
+abx_Ciprofloxacin
+abx_Clindamycin
+abx_Daptomycin
+abx_Ertapenem
+abx_Erythromycin
+abx_Gentamicin
+abx_Imipenem
+abx_Levofloxacin
+abx_Linezolid
+abx_Meropenem
+abx_Moxifloxacin
+abx_Nitrofurantoin
+abx_Other
+abx_Oxacillin
+abx_Penicillin
+abx_Piperacillin/Tazobactam
+abx_Tetracycline
+abx_Tobramycin
+abx_Trimethoprim/Sulfamethoxazole
+abx_Vancomycin
+culture_BLOOD
+culture_RESPIRATORY
+culture_URINE

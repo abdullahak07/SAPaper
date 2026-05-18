@@ -1,0 +1,21 @@
+\begin{table}[htbp]
+\centering
+\caption{XGBoost machine unlearning results (mean$\,\pm\,$SD, $n=3$ seeds). Tree Pruning is not applicable to XGBoost; results shown for completeness with label-flip proxy.}
+\label{tab:xgboost}
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{L{2.0cm} L{3.0cm} C{2.3cm} C{2.0cm} C{2.2cm} C{1.6cm}}
+\toprule
+\textbf{Dataset} & \textbf{Method} & \textbf{Acc.\,$\uparrow$} & \textbf{AUC\,$\uparrow$} & \textbf{Time (s)\,$\downarrow$} & \textbf{Speedup\,$\uparrow$} \\
+\midrule
+ARMD & Full Retrain & 86.28 $\pm$ 0.00 & 0.848 $\pm$ 0.000 & 0.406 $\pm$ 0.060 & 1.0 $\pm$ 0.0 \\
+\rowcolor{sisa} & \textbf{SISA (proposed)} & 86.15 $\pm$ 0.00 & 0.847 $\pm$ 0.000 & 0.131 $\pm$ 0.013 & 3.1 $\pm$ 0.2 \\
+ & Label-Flip Retrain. & 86.28 $\pm$ 0.00 & 0.849 $\pm$ 0.000 & 0.388 $\pm$ 0.020 & 1.0 $\pm$ 0.1 \\
+ & Influence Rewt. & 86.28 $\pm$ 0.00 & 0.848 $\pm$ 0.000 & 0.403 $\pm$ 0.033 & 1.0 $\pm$ 0.1 \\
+\midrule
+PATRIC & Full Retrain & 69.35 $\pm$ 0.19 & 0.779 $\pm$ 0.001 & 0.374 $\pm$ 0.011 & 1.0 $\pm$ 0.0 \\
+\rowcolor{sisa} & \textbf{SISA (proposed)} & 69.40 $\pm$ 0.13 & 0.778 $\pm$ 0.001 & 0.088 $\pm$ 0.003 & 4.3 $\pm$ 0.3 \\
+ & Label-Flip Retrain. & 69.44 $\pm$ 0.13 & 0.780 $\pm$ 0.001 & 0.365 $\pm$ 0.024 & 1.0 $\pm$ 0.1 \\
+ & Influence Rewt. & 69.35 $\pm$ 0.19 & 0.779 $\pm$ 0.001 & 0.402 $\pm$ 0.006 & 0.9 $\pm$ 0.0 \\
+\bottomrule
+\end{tabular}
+\end{table}

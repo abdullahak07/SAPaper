@@ -1,0 +1,26 @@
+\begin{table}[htbp]
+\centering
+\caption{Paired $t$-test results: SISA versus other methods on unlearning time across three seeds. $p < 0.05$ = statistically significant. Note: indicative only (n=3 seeds).}
+\label{tab:stats}
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{L{1.5cm} L{1.5cm} L{4.5cm} C{2.5cm} C{2.5cm} C{1.5cm}}
+\toprule
+\textbf{Dataset} & \textbf{Model} & \textbf{Comparison} & \textbf{SISA time (s)} & \textbf{Other time (s)} & \textbf{$p$-value} \\
+\midrule
+ARMD & RF & SISA vs Full Retrain & 0.174 & 0.991 & 0.0005 $^*$ \\
+ARMD & RF & SISA vs Label-Flip Retraining & 0.174 & 0.983 & 0.0005 $^*$ \\
+ARMD & RF & SISA vs Influence Reweighting & 0.174 & 0.992 & 0.0018 $^*$ \\
+ARMD & RF & SISA vs Tree Pruning & 0.174 & 0.056 & 0.0036 $^*$ \\
+ARMD & XGB & SISA vs Full Retrain & 0.131 & 0.406 & 0.0150 $^*$ \\
+ARMD & XGB & SISA vs Label-Flip Retraining & 0.131 & 0.388 & 0.0006 $^*$ \\
+ARMD & XGB & SISA vs Influence Reweighting & 0.131 & 0.403 & 0.0035 $^*$ \\
+PATRIC & RF & SISA vs Full Retrain & 0.249 & 1.928 & 0.0002 $^*$ \\
+PATRIC & RF & SISA vs Label-Flip Retraining & 0.249 & 1.909 & 0.0000 $^*$ \\
+PATRIC & RF & SISA vs Influence Reweighting & 0.249 & 1.858 & 0.0001 $^*$ \\
+PATRIC & RF & SISA vs Tree Pruning & 0.249 & 0.009 & 0.0027 $^*$ \\
+PATRIC & XGB & SISA vs Full Retrain & 0.088 & 0.374 & 0.0011 $^*$ \\
+PATRIC & XGB & SISA vs Label-Flip Retraining & 0.088 & 0.365 & 0.0032 $^*$ \\
+PATRIC & XGB & SISA vs Influence Reweighting & 0.088 & 0.402 & 0.0003 $^*$ \\
+\bottomrule
+\end{tabular}
+\end{table}

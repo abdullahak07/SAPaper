@@ -1,0 +1,30 @@
+{
+  "seeds": [42, 123, 456],
+  "n_estimators": 100,
+  "rf_params": {
+    "max_depth": 12,
+    "min_samples_leaf": 5,
+    "n_jobs": -1
+  },
+  "xgb_params": {
+    "max_depth": 6,
+    "learning_rate": 0.1,
+    "n_jobs": -1,
+    "verbosity": 0,
+    "eval_metric": "logloss"
+  },
+  "sisa_k": 5,
+  "forget_sizes": [500, 1000, 5000, 10000],
+  "shard_k_values": [2, 3, 5, 10],
+  "clinical_threshold": 0.005,
+  "armd": {
+    "retain_csv": "data/retain_set.csv",
+    "test_csv": "data/test_data.csv",
+    "forget_csv": "data/forget_set.csv",
+    "feature_cols_txt": "data/feature_columns.txt"
+  },
+  "patric": {
+    "raw_csv": "patric_data/patric_amr_raw.csv",
+    "forget_n": 500
+  }
+}
